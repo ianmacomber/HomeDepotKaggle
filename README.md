@@ -18,10 +18,10 @@ These files can be found through the website and are stored in a `/Data` folder 
 ## Data Fields
 
 * `id` - a unique Id field which represents a (search\_term, product\_uid) pair
-* `product\_uid` -an id for the products
-* `product\_title` - the product title
-* `product\_description` - the text description of the product (may contain HTML content)
-* `search\_term` - the search query
+* `product_uid` -an id for the products
+* `product_title` - the product title
+* `product_description` - the text description of the product (may contain HTML content)
+* `search_term` - the search query
 * `relevance` - the average of the relevance ratings for a given id
 * `name` - an attribute name
 * `value` - the attribute's value
