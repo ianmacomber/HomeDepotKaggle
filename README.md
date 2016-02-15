@@ -4,14 +4,18 @@ This is a code repo for the [Home Depo Kaggle Competition](https://www.kaggle.co
 
 In this competition, Home Depot is asking Kagglers to help them improve their customers' shopping experience by developing a model that can accurately predict the relevance of search results.
 
+## My Scripts
+
+* `summary.py` - Summary of the data sets. 
+
 ## File Descriptions
 
 These files can be found through the website and are stored in a `/Data` folder that is not committed to git.
 
-* `train.csv` - the training set, contains products, searches, and relevance scores.
-* `test.csv` - the test set, contains products and searches. You must predict the relevance for these pairs.
-* `product_descriptions.csv` - contains a text description of each product. You may join this table to the training or test set via the product\_uid.
-* `attributes.csv` - provides extended information about a subset of the products (typically representing detailed technical specifications). Not every product will have attributes.
+* `train.csv` - the training set, contains products, searches, and relevance scores. (74067, 5)
+* `test.csv` - the test set, contains products and searches. You must predict the relevance for these pairs. (166693, 4)
+* `product_descriptions.csv` - contains a text description of each product. You may join this table to the training or test set via the product\_uid. (124428, 2)
+* `attributes.csv` - provides extended information about a subset of the products (typically representing detailed technical specifications). Not every product will have attributes. (2044803, 3)
 * `sample_submission.csv` - a file showing the correct submission format.
 * `relevance_instructions.docx` - the instructions provided to human rates.
 
